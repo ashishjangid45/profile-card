@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body {
+    font-family: Arial, sans-serif;
+   
+    background-color:#ffffcc;
+    background-image: url(programming.jpg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  
+}
+
+.profile-card {
+    background-color:#ADCC3D;
+    box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.445);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#name {
+    font-size: 24px;
+    margin: 0;
+}
+
+#bio {
+    color: #160f0f;
+}
+
+.contact {
+    margin-top: 10px;
+    
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.icon a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #160f0f;
+}
+h5{
+    padding-top: 40px;
+    padding-bottom: 2px;
+}
